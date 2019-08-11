@@ -4,7 +4,7 @@
 	"description": "This extension can insert a space character between a Japanese character and an English character.",
 	"publisher": "kyo-bad",
 	"repository": "https://github.com/kyo-bad/word-spacer.git",
-	"version": "0.0.1",
+	"version": "0.0.2",
 	"engines": {
 		"vscode": "^1.37.0"
 	},
