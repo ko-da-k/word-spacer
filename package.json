@@ -2,6 +2,7 @@
 	"name": "word-spacer",
 	"displayName": "word-spacer",
 	"description": "日本語と英語が混在するDocumentに対して、英語の両側に半角スペースを挿入する",
+	"publisher": "kyo-bad",
 	"version": "0.0.1",
 	"engines": {
 		"vscode": "^1.37.0"
