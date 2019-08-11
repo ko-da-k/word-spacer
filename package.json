@@ -24,10 +24,6 @@
 				"title": "Hello World"
 			},
 			{
-				"command": "extension.test",
-				"title": "WordSpacer: test"
-			},
-			{
 				"command": "extension.insertSpace",
 				"title": "WordSpacer: insert space"
 			}
