@@ -27,7 +27,7 @@ const insertSpace = () => {
 	const lineCnt = editor.document.lineCount
 	editor.edit((editBuilder: vscode.TextEditorEdit) => {
 		for (let lineIdx = 0; lineIdx < lineCnt; lineIdx++) {
-			let lineText = editor.document.lineAt(i)
+			let lineText = editor.document.lineAt(lineIdx)
 			for (let colIdx = 0; colIdx < lineText.text.length - 1; colIdx++) {
 				if (isJapaneseEnglishPair(lineText.text[colIdx], lineText.text[colIdx + 1])) {
 					// Insert space to the next character.
