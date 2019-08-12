@@ -9,11 +9,19 @@ Insert space between a Japanese character and an English character.
 ### Before
 
 ```
-hogehogeほげほげhogehoge
+hoge(ほげほげ)fugafuga
+hoge (ほげほげ)ほげほげ
+ふが(ふがふが)ふがふが
+hoge(hogehoge)hogehoge
+ほげほげhogehoge(ほげほげhogehogeほげほげ)hogehogeほげほげhogehoge
 ```
 
 ### After
 
 ```
-hogehoge ほげほげ hogehoge
+hoge (ほげほげ) fugafuga
+hoge (ほげほげ) ほげほげ
+ふが (ふがふが) ふがふが
+hoge (hogehoge) hogehoge
+ほげほげ hogehoge (ほげほげ hogehoge ほげほげ) hogehoge ほげほげ hogehoge
 ```
